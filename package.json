@@ -1,0 +1,34 @@
+{
+  "name": "colorhunt.co-scraper",
+  "version": "0.1.0",
+  "description": "Nodejs scrapper that scrapes all palettes data from colorhunt.co",
+  "author": "Salim Absi",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "format": "prettier src/* --write"
+  },
+  "prettier": "@salimabsi/prettier-config",
+  "keywords": [
+    "puppeteer",
+    "cheerio",
+    "nodejs",
+    "typescript",
+    "colorhunt",
+    "colors",
+    "palettes",
+    "scraping",
+    "web-scraping"
+  ],
+  "dependencies": {
+    "@salimabsi/prettier-config": "^0.1.1",
+    "@types/fs-extra": "^11.0.1",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "fs-extra": "^11.1.1",
+    "prettier": "^2.8.8",
+    "puppeteer": "^20.2.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
